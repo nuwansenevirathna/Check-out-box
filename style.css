@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1f242d;
+    padding: 25px;
+}
+.container form {
+    width: 700px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 10px;
+}
+form .row {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.row .column {
+    flex: 1 1 250px;
+}
+.column .title {
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.column .input-box {
+    margin: 15px 0;
+}
+.input-box span {
+    display: block;
+    margin: 10px 0;
+}
+.input-box input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.column .flex {
+    display: flex;
+    gap: 15px;
+}
+.flex .input-box {
+    margin-top: -5px;
+}
+form .btn {
+    width: 100%;
+    padding: 12px;
+    background: #8175d3;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+form .btn:hover {
+    background: #5b4cba;
+}
+.input-box .credit-cards {
+    display: flex;
+    gap: 10px;
+}
+.input-box .credit-cards img {
+    width: 65px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
